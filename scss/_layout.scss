@@ -1,0 +1,135 @@
+@import "variables";
+@import "reset";
+
+body{
+    background-color: $backgroundColour;
+}
+
+.wrapper{
+    background: $backgroundColour;
+    height: 3em;
+    vertical-align: middle;
+}
+
+.wrapper a{
+    padding-top: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.titlebar{
+    display: grid;
+    grid-template-columns: 68% 8% 8% 8% 8%;
+    justify-content: left;
+    align-content: left;
+}
+
+.titlebar > div{
+    display: table-cell;
+    background-color: $titlebarColour;
+    border: solid 1px $borderColour;
+    border-bottom: solid 2px gray;
+    border-top: solid 0px;
+    height: 3em;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.4em;
+    border-left: none;
+    border-right: none;
+    transition: 500ms;
+    font-weight: bold;
+    padding-top: 0.5em;    
+    transition: 500ms;
+}
+
+.titlebar > div a{
+    text-decoration: none;
+    line-height: 75px;
+    color: $textColour;
+    margin-left: 1.0em;
+    font-family: $titleFont;
+}
+
+.facebook:hover{
+    opacity: 1;
+    background-color: $linkHovered;
+    border-left: none;
+}
+
+.twitter:hover{
+    opacity: 1;
+    background-color: $linkHovered;
+    border-left: none;
+}
+
+.youtube:hover{
+    opacity: 1;
+    background-color: $linkHovered;
+    border-left: none;
+}
+
+.discord:hover{
+    opacity: 1;
+    background-color: $linkHovered;
+    border-left: none;
+}
+
+.blank{
+    border-left: solid 1px transparent;
+    border-right: solid 1px transparent;
+}
+
+.facebook{
+    text-decoration: none;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-content: center;
+    margin-top: 5px;
+}
+
+.navigation > div{
+    display: table-cell;
+    background-color: $navNormal;
+    border: solid 1px $borderColour;
+    border-bottom: solid 2px gray;
+    border-top: solid 0px;
+    height: 3em;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.1em;
+    transition: 500ms;
+    padding-bottom: 0.7em;
+}
+
+.navigation > div a{
+    text-decoration: none;
+    line-height: 75px;
+    color: $textColour;
+    font-family: $headerFont;
+    font-size: 1.8em;
+}
+
+.navigation > div:hover{
+    opacity: 1;
+    background-color: $navHovered;
+    border-left: none;
+}
+
+.title{
+    font-family: $titleFont;
+}
