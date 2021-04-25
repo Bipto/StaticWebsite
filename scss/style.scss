@@ -1,14 +1,140 @@
 @import "layout";
 
-.witcher{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    width: 60%;
+@media only screen and (min-width: 1280px){
+    .parallax1{
+        margin-left: 14em;
+        margin-right: 14em;
+        width: auto;
+        height: auto;
+    }
+
+    .parallax2{
+        margin-left: 14em;
+        margin-right: 14em;
+        width: auto;
+    }
+
+    .parallax3{
+        margin-left: 14em;
+        margin-right: 14em;
+        width: auto;
+    }
+
+    .text-overlay1{
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+
+    .text-overlay2{
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+
+    .text-overlay3{
+        margin-left: 10em;
+        margin-right: 10em;
+    }
 }
 
-.text{
+@media only screen and (max-width: 1280px){
+    .parallax1{
+        margin-left: 5px;
+        margin-right: 5px;
+        width: auto;
+    }
+
+    .parallax2{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .parallax3{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .text-overlay1{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .text-overlay2{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .text-overlay3{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+
+.parallax1{
+    margin-top: 0.5em;
+    background-image: url('../img/the_witcher.jpg');
+    min-height: 500px;
+
+    height: 40em;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.text-overlay1{ 
     font-family: $contentFont;
-    font-size: 1.2em;
+    font-size: 1.5em;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: justify;
+}
+
+.parallax2{
+    background-image: url('../img/controllers.jpg');
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: auto;
+    height: 40em;
+}
+
+.text-overlay2{ 
+    font-family: $contentFont;
+    font-size: 1.5em;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: justify;
+}
+
+.parallax3{
+    background-image: url('../img/sonic.jpg');
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: auto;
+    height: 40em;
+}
+
+.text-overlay3{
+    font-family: $contentFont;
+    font-size: 1.5em;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: justify;
 }

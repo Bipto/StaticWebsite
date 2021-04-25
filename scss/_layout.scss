@@ -1,10 +1,15 @@
 @import "variables";
 @import "reset";
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 1280px){
     .wrapper{
         margin-left: 1.5%;
         margin-right: 1.5%;
+    }
+
+    .titlebar{
+        margin-left: 10em;
+        margin-right: 10em;
     }
 
     .titlebar > div{
@@ -23,6 +28,8 @@
         justify-content: center;
         align-content: center;
         margin-top: 5px;
+        margin-left: 10em;
+        margin-right: 10em;
     }
     
     .navigation > div{
@@ -50,12 +57,36 @@
         background-color: $navHovered;
         border-left: none;
     }
+
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        justify-content: center;
+        align-content: center;
+        margin-top: 5px;
+        margin-left: 14em;
+        margin-right: 14em;
+    }
+
+    .footer > div{
+        display: table-cell;
+        background-color: $navNormal;
+        border: solid 2px gray;
+        border-top: solid 0px;
+        text-align: center;
+        height: 2em;
+    }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1280px){
     .wrapper{
         margin-left: 0%;
         margin-right: 0%;
+    }
+
+    .titlebar{
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .titlebar > div{
@@ -77,6 +108,23 @@
 
     .navigation:hover{
         display: none;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        justify-content: center;
+        align-content: center;
+        margin-top: 5px;
+    }
+
+    .footer > div{
+        display: table-cell;
+        background-color: $navNormal;
+        border: solid 2px gray;
+        border-top: solid 0px;
+        text-align: center;
+        height: 2em;
     }
 }
 
