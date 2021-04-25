@@ -76,6 +76,30 @@
         text-align: center;
         height: 2em;
     }
+
+    .topnav {
+        display: none;
+      }
+    
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        display: none;
+      }
+      
+      .topnav a.icon {
+        display: none;
+      }
+      
+      .topnav a:hover {
+        display: none;
+      }
+      
+      .active {
+        display: none;
+      } 
 }
 
 @media only screen and (max-width: 1280px){
@@ -104,29 +128,64 @@
 
     .navigation > div a{
         display: none;
+        color: $textColour;
+        font-family: $headerFont;
+        font-size: 1.8em;
     }
 
     .navigation:hover{
         display: none;
     }
 
-    .footer{
-        display: grid;
-        grid-template-columns: repeat(9, 1fr);
-        justify-content: center;
-        align-content: center;
-        margin-top: 5px;
-    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        font: $titleFont;
+      }
 
-    .footer > div{
-        display: table-cell;
+      .topnav > div{
+          font: $titleFont;
+      }
+
+      .topnav a:hover{
+          color: black;
+      }
+      
+      .topnav a.icon {
+        background: $navHovered;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        font: $titleFont;
+      }
+      
+      .active {
         background-color: $navNormal;
-        border: solid 2px gray;
-        border-top: solid 0px;
-        text-align: center;
-        height: 2em;
-    }
+        color: white;
+      } 
+
+      .footer{
+          display: none;
+      }
 }
+
+ 
 
 body{
     background-color: $backgroundColour;
