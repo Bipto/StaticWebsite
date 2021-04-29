@@ -13,6 +13,8 @@
 
         margin-left: 12em;
         margin-right: 12em;
+
+        width: 97em;
     }
 
     .gameCaption{
@@ -34,10 +36,10 @@
         margin-top: 0.5em;
         background-image: url('../img/xbox.jpg');
         min-height: 900px;
-        width: 100%;
+        width: 98em;
 
         background-attachment: fixed;
-        background-position: 0px 5em;
+        background-position: 0px 0;
         background-repeat: no-repeat;
         background-size: contain;
 
@@ -51,12 +53,14 @@
         min-height: 900px;
 
         background-attachment: fixed;
-        background-position: 0px 5em;
+        background-position: 0px 0;
         background-repeat: no-repeat;
         background-size: cover;
 
         margin-left: 12em;
         margin-right: 12em;
+
+        width: 97em;
     }
 }
 
