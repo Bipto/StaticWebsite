@@ -1,0 +1,36 @@
+@import "layout";
+
+@media only screen and (min-width: 1280px){
+    .map{
+        margin-top: 5px;
+        margin-left: 20em;
+        margin-right: 20em;
+        width: 75em;
+        height: 55em;
+    }
+
+    .text{
+        font-size: 1.5em;
+        margin-left: 12em;
+        margin-right: 12em;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    .map{
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 58em;
+        height: 40em;
+    }
+
+    .text{
+        font-size: 1.0em;
+    }
+}
+
+.text{
+    font-family: $contentFont;
+    text-align: justify;
+}

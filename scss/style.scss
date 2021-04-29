@@ -23,18 +23,21 @@
     }
 
     .text-overlay1{
-        margin-left: 10em;
-        margin-right: 10em;
+        margin-left: 9.5em;
+        margin-right: 9.5em;
+        font-size: 1.5em;
     }
 
     .text-overlay2{
-        margin-left: 10em;
-        margin-right: 10em;
+        margin-left: 9.5em;
+        margin-right: 9.5em;
+        font-size: 1.5em;
     }
 
     .text-overlay3{
-        margin-left: 10em;
-        margin-right: 10em;
+        margin-left: 9.5em;
+        margin-right: 9.5em;
+        font-size: 1.5em;
     }
 }
 
@@ -61,16 +64,19 @@
     .text-overlay1{
         margin-left: 5px;
         margin-right: 5px;
+        font-size: 1.1em;
     }
 
     .text-overlay2{
         margin-left: 5px;
         margin-right: 5px;
+        font-size: 1.1em;
     }
 
     .text-overlay3{
         margin-left: 5px;
         margin-right: 5px;
+        font-size: 1.1em;
     }
 }
 
@@ -87,8 +93,7 @@
 }
 
 .text-overlay1{ 
-    font-family: $contentFont;
-    font-size: 1.5em;
+    font-family: $contentFont;    
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,7 +115,6 @@
 
 .text-overlay2{ 
     font-family: $contentFont;
-    font-size: 1.5em;
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,7 +136,6 @@
 
 .text-overlay3{
     font-family: $contentFont;
-    font-size: 1.5em;
 
     background-repeat: no-repeat;
     background-size: cover;

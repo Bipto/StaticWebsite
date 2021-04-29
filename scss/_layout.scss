@@ -66,6 +66,7 @@
         margin-top: 5px;
         margin-left: 14em;
         margin-right: 14em;
+        font-family: $headerFont;
     }
 
     .footer > div{
@@ -75,6 +76,7 @@
         border-top: solid 0px;
         text-align: center;
         height: 2em;
+        font-family: $headerFont;
     }
 
     .topnav {
@@ -143,6 +145,7 @@
         position: relative;
         margin-left: 5px;
         margin-right: 5px;
+        font-family: $titleFont;
       }
     
       .topnav #myLinks {
@@ -155,11 +158,7 @@
         text-decoration: none;
         font-size: 17px;
         display: block;
-        font: $titleFont;
-      }
 
-      .topnav > div{
-          font: $titleFont;
       }
 
       .topnav a:hover{
@@ -182,10 +181,9 @@
 
       .footer{
           display: none;
+          font-family: $headerFont;
       }
-}
-
- 
+} 
 
 body{
     background-color: $backgroundColour;

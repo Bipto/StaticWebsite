@@ -63,6 +63,7 @@
     margin-top: 5px;
     margin-left: 14em;
     margin-right: 14em;
+    font-family: "Changa", sans-serif;
   }
   .footer > div {
     display: table-cell;
@@ -71,6 +72,25 @@
     border-top: solid 0px;
     text-align: center;
     height: 2em;
+    font-family: "Changa", sans-serif;
+  }
+  .topnav {
+    display: none;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    display: none;
+  }
+  .topnav a:hover {
+    display: none;
+  }
+  .active {
+    display: none;
   }
 }
 
@@ -95,24 +115,49 @@
   }
   .navigation > div a {
     display: none;
+    color: #041F1E;
+    font-family: "Changa", sans-serif;
+    font-size: 1.8em;
   }
   .navigation:hover {
     display: none;
   }
-  .footer {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    justify-content: center;
-    align-content: center;
-    margin-top: 5px;
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Press Start 2P", cursive;
   }
-  .footer > div {
-    display: table-cell;
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .topnav a:hover {
+    color: black;
+  }
+  .topnav a.icon {
+    background: #808080;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font: "Press Start 2P", cursive;
+  }
+  .active {
     background-color: #aca9a9;
-    border: solid 2px gray;
-    border-top: solid 0px;
-    text-align: center;
-    height: 2em;
+    color: white;
+  }
+  .footer {
+    display: none;
+    font-family: "Changa", sans-serif;
   }
 }
 
@@ -200,29 +245,34 @@ ul li a {
     margin-left: 14em;
     margin-right: 14em;
     width: auto;
-    height: auto;
+    height: 900px;
   }
   .parallax2 {
     margin-left: 14em;
     margin-right: 14em;
     width: auto;
+    height: 900px;
   }
   .parallax3 {
     margin-left: 14em;
     margin-right: 14em;
     width: auto;
+    height: 900px;
   }
   .text-overlay1 {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 9.5em;
+    margin-right: 9.5em;
+    font-size: 1.5em;
   }
   .text-overlay2 {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 9.5em;
+    margin-right: 9.5em;
+    font-size: 1.5em;
   }
   .text-overlay3 {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 9.5em;
+    margin-right: 9.5em;
+    font-size: 1.5em;
   }
 }
 
@@ -231,26 +281,32 @@ ul li a {
     margin-left: 5px;
     margin-right: 5px;
     width: auto;
+    height: 700px;
   }
   .parallax2 {
     margin-left: 5px;
     margin-right: 5px;
+    height: 500px;
   }
   .parallax3 {
     margin-left: 5px;
     margin-right: 5px;
+    height: 500px;
   }
   .text-overlay1 {
     margin-left: 5px;
     margin-right: 5px;
+    font-size: 1.1em;
   }
   .text-overlay2 {
     margin-left: 5px;
     margin-right: 5px;
+    font-size: 1.1em;
   }
   .text-overlay3 {
     margin-left: 5px;
     margin-right: 5px;
+    font-size: 1.1em;
   }
 }
 
@@ -258,7 +314,6 @@ ul li a {
   margin-top: 0.5em;
   background-image: url("../img/the_witcher.jpg");
   min-height: 500px;
-  height: 40em;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -266,8 +321,7 @@ ul li a {
 }
 
 .text-overlay1 {
-  font-family: "Special Elite", cursive;
-  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: justify;
@@ -281,12 +335,10 @@ ul li a {
   background-repeat: no-repeat;
   background-size: contain;
   width: auto;
-  height: 40em;
 }
 
 .text-overlay2 {
-  font-family: "Special Elite", cursive;
-  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: justify;
@@ -300,12 +352,10 @@ ul li a {
   background-repeat: no-repeat;
   background-size: contain;
   width: auto;
-  height: 40em;
 }
 
 .text-overlay3 {
-  font-family: "Special Elite", cursive;
-  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: justify;
