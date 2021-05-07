@@ -3,10 +3,11 @@
 @media only screen and (min-width: 1280px){
     .map{
         margin-top: 5px;
-        margin-left: 20em;
-        margin-right: 20em;
-        width: 82em;
-        height: 55em;
+        margin-left: 12em;
+        margin-right: 12em;
+        width: 78%;
+        height: 45em;
+
     }
 
     .text{
@@ -21,8 +22,8 @@
         margin-top: 5px;
         margin-left: 5px;
         margin-right: 5px;
-        width: 58em;
-        height: 40em;
+        width: 98.5%;
+        height: 30em;
     }
 
     .text{
@@ -33,4 +34,5 @@
 .text{
     font-family: $contentFont;
     text-align: justify;
+    color: $fontColour;
 }

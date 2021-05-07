@@ -1,6 +1,14 @@
 @import "layout";
 
 @media only screen and (min-width: 1280px){
+    .video{
+        width: 75%;
+        height: 45em;
+        margin-left: 14em;
+        margin-right: 14em;
+        margin-top: 5px;
+    }
+
     .parallax1{
         margin-left: 14em;
         margin-right: 14em;
@@ -22,26 +30,23 @@
         height: 900px;
     }
 
-    .text-overlay1{
+    .text-overlay{
         margin-left: 9.5em;
         margin-right: 9.5em;
         font-size: 1.5em;
-    }
-
-    .text-overlay2{
-        margin-left: 9.5em;
-        margin-right: 9.5em;
-        font-size: 1.5em;
-    }
-
-    .text-overlay3{
-        margin-left: 9.5em;
-        margin-right: 9.5em;
-        font-size: 1.5em;
+        color: $fontColour;
     }
 }
 
 @media only screen and (max-width: 1280px){
+    .video{
+        width: 99%;
+        height: 35em;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
     .parallax1{
         margin-left: 5px;
         margin-right: 5px;
@@ -61,22 +66,10 @@
         height: 500px;
     }
 
-    .text-overlay1{
+    .text-overlay{
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 1.1em;
-    }
-
-    .text-overlay2{
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 1.1em;
-    }
-
-    .text-overlay3{
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 1.1em;
+        font-size: 1.5em;
     }
 }
 
